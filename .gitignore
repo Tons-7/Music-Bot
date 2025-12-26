@@ -1,0 +1,11 @@
+.venv
+
+.idea
+
+.env
+
+banned_users.txt
+
+music_bot.db
+
+__pycache__
