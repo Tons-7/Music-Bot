@@ -1768,13 +1768,6 @@ class MusicCommands(commands.Cog):
                     del guild_data["seeking_start_time"]
 
     @discord.app_commands.command(
-        name="autoplay", description="Auto play related songs after queue"
-    )
-    async def autoplay_slash(self, interaction: discord.Interaction):
-        embed = create_embed("Under construction. Check again after 2 weeks", "", COLOR, self.bot.user)
-        await interaction.response.send_message(embed=embed)
-
-    @discord.app_commands.command(
         name="help", description="Show all available commands and how to use them"
     )
     async def help_slash(self, interaction: discord.Interaction):
