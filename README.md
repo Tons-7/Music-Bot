@@ -28,4 +28,4 @@ Simply execute main.py
 
 # License
 
-This bot is only available for personal use
+This bot is only for personal use
